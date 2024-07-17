@@ -1,13 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## progressDialog 
 
 
 
    ```bash
 
+
+     public class registration extends AppCompatActivity {
+
+         android.app.ProgressDialog progressDialog;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_registration);
+
+
+
+
         //PrograsDialog
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Please Wait...");
         progressDialog.setCancelable(false);
+
+        }
 
    ```
 
